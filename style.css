@@ -79,6 +79,14 @@ body {
 	padding-right: 80px; 
 	overflow: auto;
 }
+#contacts{
+	line-height: 2;
+	color: white;
+	font-family: 'Happy Monkey', cursive;
+}
+#contacts img{
+	height: 128px;
+}
 #firstline {
 	float: left;
 	text-align: center;
