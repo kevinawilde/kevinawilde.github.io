@@ -86,18 +86,21 @@ body {
 }
 #contacts img{
 	height: 128px;
+	box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
 }
 #firstline {
 	float: left;
 	text-align: center;
 	margin-left: 200px; 
 	margin-top: 75px;
+	padding-bottom: 15px;
 }
 #firstline2 {
 	float: left;
 	text-align: center; 
 	margin-top: 75px;
 	padding-right: 50px;
+	padding-bottom: 15px;
 }
 p {
 	line-height: 2;
