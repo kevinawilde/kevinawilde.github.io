@@ -3,14 +3,14 @@ body {
 	margin: 0;
 }
 #header {
-	background-image: url(website2.png);
+	top:0;
+	left: 0;
+	background-image: url(website3.png);
 	background-position: center;
 	background-repeat: space;
 	background-color: rgba(12, 12, 16,.9);
 	box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 	width: 100%;
-	top:0;
-	left: 0;
 	height: 500px;
 }
 #header a img {
@@ -18,7 +18,7 @@ body {
 }
 #overlay {
 	height: 500px;
-	background-color: rgba(12, 12, 16, .8)
+	background-color: rgba(12, 12, 16, .75)
 }
 #content {
 	overflow: auto;
@@ -28,11 +28,16 @@ body {
 	height: 150px;
 	margin-left: 50px;
 	margin-top: 50px;
+	box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
 }
 #profileimage {
 	width: 45%;
 	float: left;
 	margin-left: 40px; 
+	border-radius: 20px;
+}
+#profileimage img {
+	box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
 }
 #tagline {
 	text-align: center;
@@ -62,8 +67,9 @@ body {
 	margin-top: 75px;
 }
 p {
-	line-height: 1.5;
+	line-height: 2;
 	color: white;
+	font-family: 'Happy Monkey', cursive;
 }
 #internallinks {
 	float: right;
