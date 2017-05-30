@@ -41,6 +41,17 @@ body {
 	border-radius: 20px;
 	width: 350px;
 }
+#profileimage2 {
+	width: 45%;
+	float: left;
+	margin-left: 40px; 
+	margin-top: 5px;
+}
+#profileimage2 img {
+	box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
+	border-radius: 20px;
+	width: 350px;
+}
 #tagline {
 	text-align: center;
 }
