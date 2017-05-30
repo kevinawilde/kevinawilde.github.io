@@ -1,6 +1,7 @@
 body {
 	background-color: rgb(54, 55, 73);
 	margin: 0;
+	padding-bottom: 50px;
 }
 #header {
 	top:0;
@@ -34,10 +35,11 @@ body {
 	width: 45%;
 	float: left;
 	margin-left: 40px; 
-	border-radius: 20px;
 }
 #profileimage img {
 	box-shadow: 12px 12px 12px 0px rgba(0,0,0,0.75);
+	border-radius: 20px;
+	width: 350px;
 }
 #tagline {
 	text-align: center;
@@ -60,11 +62,23 @@ body {
 	width: 45%;
 	margin-left: 40px; 
 }
+#paragraph2{
+	float: right;
+	width: 45%;
+	padding-right: 80px; 
+	overflow: auto;
+}
 #firstline {
 	float: left;
 	text-align: center;
 	margin-left: 200px; 
 	margin-top: 75px;
+}
+#firstline2 {
+	float: left;
+	text-align: center; 
+	margin-top: 75px;
+	padding-right: 50px;
 }
 p {
 	line-height: 2;
